@@ -1,0 +1,29 @@
+{
+  "name": "create-wq-cli",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "main": "index.js",
+  "bin": {
+    "create-wq-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "{{author}}",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.1.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^5.4.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.14.2"
+  }
+}
